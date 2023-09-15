@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    text-align: center;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+}
+
+canvas {
+    border-style: solid;
+    border-width: 0.1rem;
+}
