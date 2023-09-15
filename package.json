@@ -1,14 +1,17 @@
 {
-  "name": "websocket-test",
-  "version": "1.0.0",
-  "description": "",
-  "type": "module",
-  "scripts": {},
-  "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^4.4.9"
-  },
-  "dependencies": {
-    "ws": "^8.14.1"
-  }
+    "name": "websocket-test",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "build": "cd src && tsc --build" 
+    },
+    "devDependencies": {
+        "@types/ws": "^8.5.5",
+        "typescript": "^5.2.2",
+        "vite": "^4.4.9"
+    },
+    "dependencies": {
+        "ws": "^8.14.1"
+    }
 }
